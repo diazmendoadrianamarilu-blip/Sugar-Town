@@ -1,0 +1,26 @@
+# --- Archivos privados / de herramientas (no se publican) ---
+CLAUDE.md
+.claude/
+.mcp.json
+.vscode/
+.env
+.env.*
+*.key
+*.pem
+
+# --- Archivos de lugar de Roblox (se generan con `rojo build`) ---
+*.rbxl
+*.rbxlx
+*.rbxl.lock
+*.rbxlx.lock
+sourcemap.json
+
+# --- Material de trabajo (capturas de revisión y originales de arte) ---
+capturas_revision/
+fotos_portada/
+portada/
+
+# --- Sistema ---
+.DS_Store
+Thumbs.db
+desktop.ini
